@@ -1,4 +1,4 @@
-c; // I m using Supertest application for testing express apps
+// I m using Supertest application for testing express apps
 const express = require("express");
 
 var app = express();
@@ -22,6 +22,9 @@ app.get("/user", (req, res) => {
     {
       name: "Kuldeep",
       age: 22
+    },
+    {
+      name: 'Alfaiz'
     }
   ]);
 });
